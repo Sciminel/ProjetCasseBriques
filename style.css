@@ -1,0 +1,24 @@
+*, ::before, ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: cursive;
+    background: linear-gradient(to right, #666, #aaa);
+}
+
+h1, h2{
+    text-align: center;
+    padding: 30px 0;
+    font-size: 6vW;
+}
+
+canvas{
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #fff;
+    background: #f1f1f1;
+}
+
